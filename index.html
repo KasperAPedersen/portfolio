@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>W3.CSS Template</title>
+        <title>SwoopieXYZ</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -13,8 +13,8 @@
         <!-- Header -->
         <div class="w3-top">
             <!-- Header (on larger screens) -->
-            <div class="w3-bar" id="myNavbar">
-                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <div class="w3-bar" id="navbar">
+                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="navIconChange()" title="Toggle Navigation Menu">
                     <i class="fa fa-bars"></i>
                 </a>
                 <a href="#home" class="w3-bar-item w3-button w3-hover-red">HOME</a>
@@ -23,9 +23,9 @@
             </div>
 
             <!-- Header (on smaller screens) -->
-            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-                <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-                <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <div id="smallNav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+                <a href="#about" class="w3-bar-item w3-button" onclick="navIconChange()">ABOUT</a>
+                <a href="#portfolio" class="w3-bar-item w3-button" onclick="navIconChange()">PORTFOLIO</a>
             </div>
         </div>
 
@@ -40,14 +40,14 @@
         <div class="w3-content w3-container w3-padding-64" id="about">
             <h3 class="w3-center">ABOUT ME</h3>
             <p class="w3-center"><em>I love coding</em></p>
-            <p>Hi! My name is Kasper Alexander Pedersen & I'm a 19 year old boy from Denmark who loves spending time on my computer, I mostly spend my time on programming & playing games like Counter-Strike: Global Offensive. I got into coding when I was 13 years old and was trying to code my first mod to Call of Duty, however now I'm more focused of PC Game Hacking & web development which I've been doing for the past 4 years now. I can code pretty fluently in html, css, js, php & c++. I'm going to study web development in the near future & I'd like to become a game developer or a backend developer once I'm finished with my studies.</p>
+            <p>Hi! My name is Kasper Alexander Pedersen &amp; I'm a 19 year old boy from Denmark who loves spending time on my computer, I mostly spend my time on programming &amp; playing games like Counter-Strike: Global Offensive. I got into coding when I was 13 years old and was trying to develop my first mod to Call of Duty, however now I'm more focused of PC Game Hacking &amp; web development which I've been doing for the past 4 years now. I can code pretty fluently in html, css, js, php &amp; c++. I'm going to study web development in the near future &amp; I'd like to become a game developer or a backend developer once I'm finished with my studies.</p>
             <p>On this website you'll be able to see my projects as live demo versions, you'll also be able to contact me through the formular in the bottom of the page.</p>
         </div>
 
         <!-- Statetics page -->
         <div class="w3-row w3-center w3-dark-grey w3-padding-16">
             <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">5+</span><br>All-time projects
+                <span class="w3-xlarge">10+</span><br>All-time projects
             </div>
             <div class="w3-quarter w3-section">
                 <span class="w3-xlarge">2+</span><br>Current projects
@@ -56,7 +56,7 @@
                 <span class="w3-xlarge">2+</span><br>Websites
             </div>
             <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">3+</span><br>Cheats
+                <span class="w3-xlarge">6+</span><br>Cheats
             </div>
         </div>
 
@@ -189,6 +189,6 @@
             </div>
         </footer>
 
-        <script src="inc/styling/js/index.js"></script>
+        <script src="inc/styling/js/index.js?version=1"></script>
     </body>
 </html>
