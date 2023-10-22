@@ -53,8 +53,8 @@ body, html {
 .portfolioItem {
     border: 1px solid transparent;
 }
+/*
 
-/* Pop */
 @-webkit-keyframes hvr-pop {
     50% {
       -webkit-transform: scale(1.2);
@@ -82,4 +82,4 @@ body, html {
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-  }
+  }*/
