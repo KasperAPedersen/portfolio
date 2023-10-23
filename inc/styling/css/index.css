@@ -34,6 +34,8 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
+
+
 /* Removing the parellex effect on smaller devices */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -52,6 +54,10 @@ body, html {
 
 .portfolioItem {
     border: 1px solid transparent;
+}
+
+.projectCards {
+  margin-bottom: 30px;
 }
 /*
 

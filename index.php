@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="inc/styling/css/index.css">
+        <link rel="stylesheet" href="inc/styling/css/index.css?version=3">
     </head>
     <body>
         <!-- Header -->
@@ -73,7 +73,7 @@
             <p class="w3-center"><em>Here are some of my latest websites<br> Click on the images to view a live version</em></p><br>
 
             <div class="w3-cell-row">
-                <div class="w3-container w3-cell w3-mobile">
+                <div class="w3-container w3-cell w3-mobile projectCards">
                     <a href="#" class="hideLinks"><div class="w3-card-4 hvr-pop" style="width:100%;max-width:400px">
                         <img src="inc/images/tempPic1.PNG" alt="Alps" style="width:100%">
                         <div class="w3-container w3-center w3-padding">
@@ -95,7 +95,7 @@
             <div class="seperator"></div>
 
             <div class="w3-cell-row">
-                <div class="w3-container w3-cell w3-mobile">
+                <div class="w3-container w3-cell w3-mobile projectCards">
                     <a href="#" class="hideLinks"><div class="w3-card-4 hvr-pop" style="width:100%;max-width:400px">
                         <img src="inc/images/tempPic1.PNG" alt="Alps" style="width:100%">
                         <div class="w3-container w3-center w3-padding">
