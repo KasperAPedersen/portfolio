@@ -17,9 +17,9 @@
                 <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="navIconChange()" title="Toggle Navigation Menu">
                     <i class="fa fa-bars"></i>
                 </a>
-                <a href="#home" class="w3-bar-item w3-button w3-hover-red">HOME</a>
-                <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-red"><i class="fa fa-user"></i> ABOUT</a>
-                <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-hover-red"><i class="fa fa-th"></i> PORTFOLIO</a>
+                <a href="#home" class="w3-bar-item w3-button w3-hover-dark-gray">HOME</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-dark-gray"><i class="fa fa-user"></i> ABOUT</a>
+                <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-hover-dark-gray"><i class="fa fa-th"></i> PORTFOLIO</a>
             </div>
 
             <!-- Header (on smaller screens) -->
@@ -39,7 +39,7 @@
         <!-- About me page -->
         <div class="w3-content w3-container w3-padding-64" id="about">
             <h3 class="w3-center">ABOUT ME</h3>
-            <p class="w3-center"><em>I love coding</em></p>
+            <p class="w3-center"><em>I love programming</em></p>
             <p>Hi! My name is Kasper &amp; I'm 24 years old and loves spending time on my computer, I mostly spend my time on programming &amp; playing FPS and survival games. I got into programming when I was 13 years old and was trying to develop my first mod to Call of Duty, however now I'm more focused on PC Game Hacking &amp; web development which I've been doing for the past 4 years now. I'm familiar in the programming languages HTML, CSS, Javascript, Python &amp; C++. I'm currently studying software development &amp; I'd like to become a game developer or a backend developer once I'm finished with my studies.</p>
             <p>On this website you'll be able to see my projects as live demo versions, you'll also be able to contact me through the formular in the bottom of the page.</p>
         </div>
