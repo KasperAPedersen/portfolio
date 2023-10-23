@@ -10,7 +10,6 @@
         <link rel="stylesheet" href="inc/styling/css/index.css">
     </head>
     <body>
-        <?php include 'inc/styling/php/index.php' ?>
         <!-- Header -->
         <div class="w3-top">
             <!-- Header (on larger screens) -->
@@ -48,7 +47,7 @@
         <!-- Statetics page -->
         <div class="w3-row w3-center w3-dark-grey w3-padding-16">
             <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">10+</span><br> projects
+                <span class="w3-xlarge"><?php include 'db_connection.php' ?></span><br> Visitors
             </div>
             <div class="w3-quarter w3-section">
                 <span class="w3-xlarge">10+</span><br>All-time projects
