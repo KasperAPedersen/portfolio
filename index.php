@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="inc/styling/css/index.css?version=3">
+        <?php include 'inc/styling/php/db_connection.php' ?>
     </head>
     <body>
         <!-- Header -->
@@ -47,16 +48,16 @@
         <!-- Statetics page -->
         <div class="w3-row w3-center w3-dark-grey w3-padding-16">
             <div class="w3-quarter w3-section">
-                <span class="w3-xlarge"><?php include 'db_connection.php' ?></span><br> Visitors
+                <span class="w3-xlarge"><?php include 'inc/styling/php/visitors.php' ?></span><br> Visitors
             </div>
             <div class="w3-quarter w3-section">
                 <span class="w3-xlarge">10+</span><br>All-time projects
             </div>
             <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">2</span><br>Websites
+                <span class="w3-xlarge"><?php include 'inc/styling/php/websites.php' ?></span><br>Websites
             </div>
             <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">6</span><br>Cheats
+                <span class="w3-xlarge"><?php include 'inc/styling/php/cheats.php' ?></span><br>Cheats
             </div>
         </div>
 
@@ -189,6 +190,5 @@
             </div>
         </footer>
         <script src="inc/styling/js/index.js?version=3"></script>
-        
     </body>
 </html>
