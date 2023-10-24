@@ -9,7 +9,7 @@ function navIconChange() {
     let x = document.getElementById("smallNav");
     x.className.indexOf("w3-show") == -1 ? x.className += " w3-show" : x.className = x.className.replace(" w3-show", "");
 };
-
+/*
 document.getElementById("contactBtn").addEventListener('click', () => {
     alert("Contact form is disabled.\nPlease contact me at swoopai@swoopai.dk");
-});
+});*/

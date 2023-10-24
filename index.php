@@ -140,38 +140,38 @@
 
         <!-- Contact page -->
         <div class="w3-content w3-container w3-padding-64" id="contact">
-            <form class="w3-container w3-card-4"><br>
+            <form class="w3-container w3-card-4" method="POST" action="inc/styling/php/mail.php"><br>
                 <div class="w3-cell-row">
                     <div class="w3-container w3-cell w3-mobile">
                         <div class="w3-row-padding">
                             <div class="w3-half">
                                 <label class="w3-text-grey">Email Address</label>
-                                <input class="w3-input w3-border" type="text" required="">
+                                <input class="w3-input w3-border" type="text" required="" name="email">
                             </div>
                             <div class="w3-quarter">
                                 <label class="w3-text-grey">First Name</label>
-                                <input class="w3-input w3-border" type="text" required="">
+                                <input class="w3-input w3-border" type="text" required="" name="fname">
                             </div>
                             <div class="w3-quarter">
                                 <label class="w3-text-grey">Last Name</label>
-                                <input class="w3-input w3-border" type="text" required="">
+                                <input class="w3-input w3-border" type="text" required="" name="lname">
                             </div>
                         </div>
 
                         <div class="w3-row-padding">
                             <div class="w3-quarter">
                                 <label class="w3-text-grey">Subject</label>
-                                <input class="w3-input w3-border" type="text" required="">
+                                <input class="w3-input w3-border" type="text" required="" name="subject">
                             </div>
                             <div class="w3-threequarter">
                                 <label class="w3-text-grey">Message</label>
-                                <input class="w3-input w3-border" type="text" required="">
+                                <input class="w3-input w3-border" type="text" required="" name="message">
                             </div>
                         </div>
                         
                         <div class="w3-row-padding w3-right">
                             <div class="w3-quarter">
-                                <p><button type="button" class="w3-btn w3-padding w3-teal" style="width:120px" id="contactBtn">Send &nbsp; ❯</button></p>
+                                <p><button type="submit" class="w3-btn w3-padding w3-teal" style="width:120px" id="contactBtn">Send &nbsp; ❯</button></p>
                             </div>
                         </div><br>
                     </div>
@@ -189,6 +189,6 @@
                 <a href="https://twitter.com/imeasyx"><i class="fa fa-twitter w3-hover-opacity"></i></a>
             </div>
         </footer>
-        <script src="inc/styling/js/index.js?version=3"></script>
+        <script src="inc/styling/js/index.js?version=4"></script>
     </body>
 </html>
