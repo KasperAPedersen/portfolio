@@ -1,10 +1,17 @@
 <?php
-    echo $_POST['fname'];
-    if(empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['email']) || empty($_POST['subject']) || empty($_POST['message'])) {
+    include 'db_connection.php';
+    $email = $_POST['email'];
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $sub = $_POST['subject'];
+    $msg = $_POST['message'];
+
+    if (empty($email) || empty($fname) || empty($lname) || empty($sub) || empty($msg)) {
         echo "Missing inputs";
     } else {
-        $tmp = $_POST['fname'] + " " + $_POST['lname'] + "(" + $_POST['email'] + ")" + "\n" + $_POST['message'];
-        echo $tmp;
-        mail("swoopai@swoopai.dk", $_POST['subject'], $tmp);
+        $conn = connect();
+        $conn->query("INSERT INTO contact (email, first, last, subject, message) VALUES ('$email', '$fname', '$lname', '$sub', '$msg')");
+        close($conn);
+        header('Location: https://swoopai.dk');
     }
 ?>
