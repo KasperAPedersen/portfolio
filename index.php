@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="inc/styling/css/index.css?version=3">
+        <link rel="stylesheet" href="inc/styling/css/index.css?version=4">
         <?php include 'inc/styling/php/db_connection.php' ?>
     </head>
     <body>
@@ -46,7 +46,7 @@
         </div>
 
         <!-- Statetics page -->
-        <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16" id="statsPage">
             <div class="w3-quarter w3-section">
                 <span class="w3-xlarge"><?php include 'inc/styling/php/visitors.php' ?></span><br> Visitors
             </div>
@@ -62,7 +62,7 @@
         </div>
 
         <!-- Portfolio background with title (portfolio) -->
-        <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolioHeader">
             <div class="w3-display-middle">
                 <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
             </div>
@@ -132,7 +132,7 @@
         </div>
 
         <!-- Contact background with title (contact) -->
-        <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="bgimg-3 w3-display-container w3-opacity-min" id="contactHeader">
             <div class="w3-display-middle">
                 <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
             </div>

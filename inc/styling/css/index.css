@@ -43,6 +43,32 @@ body, html {
     }
 }
 
+@media only screen and (max-device-width: 425px) {
+  #statsPage, #portfolioHeader, #contactHeader {
+    display: none;
+  }
+
+  #portfolio {
+    position: relative;
+    top: -100px;
+  }
+
+  #about {
+    position: relative;
+    top: -25px;
+  }
+
+  #contact {
+    position: relative;
+    top: -175px;
+  }
+
+  footer {
+    position: relative;
+    top: -175px;
+  }
+}
+
 .hideLinks {
     text-decoration: none;
 }
