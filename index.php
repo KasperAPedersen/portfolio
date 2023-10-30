@@ -189,6 +189,6 @@
                 <a href="https://github.com/KasperAPedersen" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
             </div>
         </footer>
-        <script src="inc/styling/js/index.js?version=4"></script>
+        <script src="inc/styling/js/index.js?version=5"></script>
     </body>
 </html>
