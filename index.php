@@ -183,10 +183,10 @@
         <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
             <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
             <div class="w3-xlarge w3-section">
-                <a href="https://steamcommunity.com/id/easyzyx"><i class="fa fa-steam w3-hover-opacity"></i></a>
-                <a href="https://www.instagram.com/swooopie/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-                <a href="https://www.snapchat.com/add/slaskerhd"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
-                <a href="https://twitter.com/imeasyx"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                <a href="https://steamcommunity.com/id/easyzyx" target="_blank"><i class="fa fa-steam w3-hover-opacity"></i></a>
+                <a href="https://www.instagram.com/swooopie/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                <a href="https://twitter.com/imeasyx" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                <a href="https://github.com/KasperAPedersen" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
             </div>
         </footer>
         <script src="inc/styling/js/index.js?version=4"></script>
