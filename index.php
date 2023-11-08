@@ -75,10 +75,10 @@
 
             <div class="w3-cell-row">
                 <div class="w3-container w3-cell w3-mobile projectCards">
-                    <a href="#" class="hideLinks"><div class="w3-card-4 hvr-pop" style="width:100%;max-width:400px">
+                    <a href="https://github.com/KasperAPedersen/swpcs2" class="hideLinks"><div class="w3-card-4 hvr-pop" style="width:100%;max-width:400px">
                         <img src="inc/images/tempPic1.PNG" alt="Alps" style="width:100%">
                         <div class="w3-container w3-center w3-padding">
-                            <p><b>Portfolio</b><br>Written in html, css, js, php</p>
+                            <p><b>CS2 Smoke Bot</b><br>Written in Javascript</p>
                         </div>
                     </div></a>
                 </div>
